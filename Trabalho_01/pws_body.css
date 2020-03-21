@@ -1,0 +1,109 @@
+.box{
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.5);
+}
+
+h5{
+    border-bottom: rgb(255, 208, 0) solid 3px;
+    width: 90%;
+}
+
+.body_text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.b_left, .b_right{
+    height: 100vh;
+    float: left;
+    width: 15%;
+    background: linear-gradient(rgb(29, 19, 58), rgb(45, 15, 85));
+    z-index: 3;
+}
+
+.b_left ul{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.b_right ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.apoiador{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(32, 14, 85);
+    margin: 5px;
+}
+
+
+h3{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.content{
+    float: left;
+    z-index: 1;
+    height: 100vh;
+    width: 70%;
+    background-color: rgb(245, 245, 245);
+}
+
+.animacao1{
+    position: relative;
+    animation-name: imagem_1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@media screen and (max-width: 600px){
+    .b_left, .b_right{
+        height: auto;
+        float: none;
+        width: auto;
+    }
+
+    .content{
+        float: none;
+        width: auto;
+    }
+}
+
+@keyframes imagem_1{
+    0%{
+        transform: rotate(0deg);
+        top: 0px;
+        left: 0vw;
+    }
+
+    25%{
+        top: 80vh;
+        left: 60vw;
+    }
+
+    50%{
+        left: 0vw;
+        top: 80vh;
+    }
+
+    75%{
+        top: 0vh;
+        left: 60vw;
+    }
+
+    100%{
+        transform: rotate(720deg);
+        left: 0vw;
+    }
+}

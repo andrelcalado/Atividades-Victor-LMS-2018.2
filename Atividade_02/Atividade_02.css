@@ -1,0 +1,65 @@
+.R6{
+    position: absolute;
+    top: -40px;
+    height: 150px;
+}
+
+img{
+    margin: 5px;
+}
+
+a{
+    color: white;
+}
+
+p{
+    margin: 5px;
+    align-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    border-bottom: 5px solid rgb(0, 76, 190);
+    font-size: 40px;
+    width: 300px; margin: auto;
+}
+
+.Div-Style1-Margin{
+    margin-top: 10px;
+    background-color: rgb(0, 76, 190);
+    height: 5px;    
+}
+
+.Div-Style1{
+    margin: auto;
+    background-color: rgb(0, 76, 190);
+    height: 5px;    
+}
+
+.Div-Style2{
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 25px;
+    padding: 10px;
+    height: 30px;    
+}
+
+.Div-Style2-Content{
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 25px;
+    padding: 10px;   
+}
+
+.Border-Style{
+    border-left: 5px solid rgb(0, 76, 190);
+    width: 100px;
+    margin: auto;
+    float: left;
+}

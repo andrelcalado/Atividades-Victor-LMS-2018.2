@@ -1,0 +1,16 @@
+[       
+        {"grupo":"Grupo da Família","mensagens":[
+            {"usuario":"Joao Marcos","text":"Bom Dia Familia!"},
+            {"usuario":"Almeida José","text":"Opa, Bom Dia!"},
+            {"usuario":"Francisco Junior","text":"Coé Rapaziada"}]},
+
+        {"grupo":"Galera da UFC","mensagens":[
+            {"usuario":"Ismael Almeida","text":"O que tem pra entregar hoje?"},
+            {"usuario":"Pedro Italo","text":"Não sei, no momento estou com dor de cabeça"},
+            {"usuario":"Igo Marinvalho","text":"Faz tempo que não vou a aula"}]},
+        
+        {"grupo":"Férias em Dubai","mensagens":[
+            {"usuario":"Caio Cezar","text":"Iai, vdc mesmo?"},
+            {"usuario":"Icaro Junior","text":"Já estamos lá boy"},
+            {"usuario":"Isabele Feitosa","text":"Será que vai gerar?"}]}
+]

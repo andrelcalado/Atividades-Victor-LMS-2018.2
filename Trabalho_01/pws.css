@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+}
+
+li{
+    color: white;
+    overflow: hidden;
+}
+
+.menu > ul > li{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+                        /* ÍCONES */
+.face{
+    background: url("./img/face.png") center no-repeat black;
+    width: 30px;
+    height: 30px;
+}
+
+.phone{
+    background: url("./img/phone.png") center no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.gmail{
+    background: url("./img/email.png") center no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.insta{
+    background: url("./img/insta.png") center no-repeat;
+    width: 30px;
+    height: 30px;
+}
+                /* -------------------------- */
+
+.menu ul{
+    z-index: 1;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+.dropdown ul{
+    margin-top: 11px;
+}
+
+.dropdown{
+    position:absolute;
+    margin-left:-8px;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 300ms;
+}
+
+.dropdown_content:hover .dropdown{
+    max-height: 70px;
+}
+
+.menu ul li{
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color:black;
+    transition: border-bottom 400ms;
+    list-style-type: none;
+    border-bottom: solid black 3px;
+}
+
+.menu ul li:hover {
+    background-color: rgb(20, 20, 20);
+    border-bottom: rgb(255, 208, 0) solid 3px;
+    transition: border-bottom 0ms;
+}
+
+.logo-pws{
+    padding: 10px;
+}
+
+@media screen and (max-width: 382px){
+    .menu > ul{
+        flex-direction: column;
+    }
+}
+
+h1{
+    color: blue;
+    background-color: black;
+}

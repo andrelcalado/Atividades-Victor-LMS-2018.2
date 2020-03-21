@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.mg{
+    margin-top: 20px;
+}
+
+.w3s{
+    font-size: 37px;
+    font-family: monospace;
+    color: #555555;
+    padding-left: 15px;
+}
+
+.w3s_2{
+    font-family: "Segoe UI";
+    font-size: 17px;
+    float: right;
+    padding-top: 10px;
+    padding-right: 15px;
+    color: black;
+}
+
+#menu {
+    background-color: rgb(76, 175, 80); width: 100%;
+    overflow: hidden;
+    height: 52px;
+}
+
+h2{
+    font-weight: normal;
+    margin: 10px;
+}
+
+.menu-icons{
+    position: absolute;
+    left: 90vw;
+}
+
+
+#menu > ul > li{
+    padding: 16px;
+    float: left;
+    color: white;
+    display: block;
+    font-family: "Segoe UI";
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#menu > ul > li:hover{
+    background-color: white;
+    color: #555555;
+}
+
+.Tutorials{
+    display: none;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: -15px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    cursor: auto;
+}
+
+.dropdown{
+    display: none;
+}
+
+.dropdown:hover .Tutorials{
+    display: block;
+}
+
+.Tutorials ul{
+    font-family: "Segoe UI";
+    list-style-type: none;
+    padding: 16px;
+    float: left;
+    color: black;
+    display: line;
+    width: 20vw;
+}
+
+.Tutorials ul li{
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.Tutorials ul li:hover{
+    background-color: #cacaca;
+}
